@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'  # 官方库
+source 'https://github.com/seongbrave/TwilightSpecs.git'   # 私有库
+use_frameworks!
+
+target 'Jacob_Example' do
+  pod 'Jacob', :path => '../'
+  pod 'IQKeyboardManagerSwift', '~> 6.2.0'
+  pod 'Carlisle', '~> 0.0.1'
+  pod 'SwiftyUserDefaults', '4.0.0-alpha.1'
+
+  target 'Jacob_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

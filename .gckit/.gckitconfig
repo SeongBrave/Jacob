@@ -1,0 +1,57 @@
+{
+  "organization": "Gckit",
+  "author": "seongbrave",
+  "preset": "all",
+  "list": "tv",
+  "force": true,
+  "isDeep": true,
+  "tempJPath": "tempJson",
+  "mainPath": "Main",
+  "gTypes": [
+    "viewcontroller",
+    "viewmodel",
+    "model",
+    "cell",
+    "api",
+    "router",
+    "core"
+  ],
+  "viewcontroller": {
+    "path": "ViewController",
+    "suffix": "_vc",
+    "isProject": false
+  },
+  "viewmodel": {
+    "path": "ViewModel",
+    "suffix": "_vm",
+    "isProject": false
+  },
+  "model": {
+    "path": "Model",
+    "suffix": "_model",
+    "isProject": false
+  },
+  "cell": {
+    "path": "View/Cell",
+    "suffix": "_cell",
+    "isProject": false
+  },
+  "api": {
+    "path": "Api",
+    "suffix": "_api",
+    "isProject": false
+  },
+  "router": {
+    "path": "Module",
+    "suffix": "_router",
+    "isProject": true
+  },
+  "core": {
+    "path": "Module",
+    "suffix": "Core",
+    "isProject": true
+  },
+  "lang": "swift",
+  "prefix": "",
+  "cLangList": []
+}
